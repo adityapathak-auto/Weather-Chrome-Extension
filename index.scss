@@ -1,10 +1,86 @@
-body{
-    width: 200px;
+body {
+    width: 350px;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
 }
-.dataDiv{
-    padding: 10px;
-    #cityName{
-        color: rgb(79, 103, 103);
 
-    }
+h4 {
+    margin: 0 0 15px 0;
+    color: #2c3e50;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.dataDiv {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dataDiv p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+#cityName {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4f6767;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.visibility-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.visibility-item:hover {
+    transform: translateY(-2px);
+}
+
+.visibility-item p {
+    margin: 8px 0;
+    color: #495057;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e9ecef;
+    margin: 12px 0;
+}
+
+#tempData {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+#tempData::-webkit-scrollbar {
+    width: 6px;
+}
+
+#tempData::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+#tempData::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+#tempData::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
 }
