@@ -1,0 +1,12 @@
+body {
+  width: 200px;
+}
+
+.dataDiv {
+  padding: 10px;
+}
+.dataDiv #cityName {
+  color: rgb(79, 103, 103);
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,17 @@
+{
+    "name": "Trail Extension",
+    "version": "1.0.0",
+    "description": "trial",
+    "manifest_version": 3,
+    "author": "Aditya Pathak",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://api.openweathermap.org/*"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Trial"
+    }
+}
