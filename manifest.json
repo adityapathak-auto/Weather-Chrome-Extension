@@ -1,17 +1,18 @@
 {
-    "name": "Trail Extension",
+    "name": "Weather info",
     "version": "1.0.0",
-    "description": "trial",
+    "description": "Get weather updates for your current location",
     "manifest_version": 3,
     "author": "Aditya Pathak",
     "permissions": [
-        "storage"
+        "storage",
+        "geolocation"
     ],
     "host_permissions": [
         "https://api.openweathermap.org/*"
     ],
     "action": {
         "default_popup": "index.html",
-        "default_title": "Trial"
+        "default_title": "Weather Info"
     }
 }
